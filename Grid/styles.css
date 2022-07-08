@@ -1,0 +1,88 @@
+h2{
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to right, rgb(234, 100, 123) , rgb(146, 1, 212))
+}
+/* grid 1 */
+
+#grid1-container{
+    display: grid;
+    grid-template-columns: .5fr 7fr 1fr;
+    grid-template-rows: 2fr 1fr 7fr;
+    gap: 10px;
+    margin-top: 5vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+.grid1-div{
+    background-color: rgb(255, 238, 0);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1vh;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.one-five{
+    border-radius: 1%/5%;
+}
+.five{
+    border-radius: 5%;
+}
+.ten-five{
+    border-radius: 10%/5%;
+}
+
+/*grid2*/
+#grid2-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 5vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+.grid2-div{
+    background-color: rgb(255, 238, 0);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1vh;
+    font-weight: bolder;
+    font-size: xx-large; 
+    border-radius: 1%/5%;
+}
+.nine{
+    grid-area: 2/4/4/6;
+    background-color: white;
+}
+
+/*grid3 */
+#grid3-container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 5vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+.grid3-div{
+    background-color: rgb(255, 238, 0);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1vh;
+    font-weight: bolder;
+    font-size: xx-large; 
+    border-radius: 1%/5%;
+}
+.three{
+    grid-area: 4/1/5/9;
+    border-radius: .5%/6%;
+}

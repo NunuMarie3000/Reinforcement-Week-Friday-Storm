@@ -1,0 +1,96 @@
+h2{
+    text-align: center;
+}
+
+/* flexbox1 */
+#flexbox1-container{
+    display: flex;
+    justify-content: center;
+}
+.flexbox1{
+    background-color: skyblue;
+    border-radius: 5%;
+    justify-content: space-around;
+    padding: 7vw 9vw;
+    margin: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(28, 180, 240);
+} 
+
+/* flexbox2 */
+#flexbox2-container{
+    display: flex;
+    justify-content: center;
+}
+.small-div{
+    background-color: skyblue;
+    border-radius: 5%;
+    justify-content: space-around;
+    padding: 4vw 4vw;
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(28, 180, 240);
+}
+.long-div{
+    background-color: skyblue;
+    border-radius: 1%/5%;
+    justify-content: space-around;
+    padding: 4vw 30vw;
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(28, 180, 240);
+} 
+
+/* flexbox3 */
+#flexbox3-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.row-container{
+    display: flex;
+    justify-content: center;
+}
+.two-short{
+    background-color: skyblue;
+    border-radius: 1%/5%;
+    justify-content: space-around;
+    padding: 4vw 15vw;
+    margin: 1vw;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(28, 180, 240);
+}
+.one-long{
+    background-color: skyblue;
+    border-radius: 1%/5%;
+    padding: 4vw 31.25vw;
+    margin: 1vw;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(28, 180, 240);
+} 
+
+/* flexbox4 */
+#flexbox4-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.row-container{
+    display: flex;
+    justify-content: center;
+}
+.div{
+    background-color: skyblue;
+    border-radius: 1%/5%;
+    justify-content: space-around;
+    padding: 4vw 12vw;
+    margin: .75vw;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(28, 180, 240); 
+}
